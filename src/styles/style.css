@@ -1,0 +1,317 @@
+@import url(../pages/index.html);
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 185px;
+    background-color: var(--color-primary-black);
+}
+
+.header-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navegation-main-header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.nav-header-item{
+    color: var(--color-secundary-grey);
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font-body);
+    font-weight: var(--font-body3);
+}
+
+.active{
+    color: var(--color-secundary-pink);
+    font-weight: bold;
+}
+
+.header-buttom-reserva{
+    color: var(--color-primary-whithe);
+    background-color: var(--color-secundary-pink);
+    border-radius: 10px;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-body3);
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 60px 172px;
+    background-color: var(--color-primary-black);
+}
+
+.content-main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 549px;
+}
+
+.content-main-span{
+    color: var(--color-secundary-pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid var(--color-secundary-d-gray);
+    border-radius: 10px;
+    padding: 10px 12px;
+    width: 81px;
+}
+
+.text-main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 549px;
+
+}
+
+h1{
+    color: var(--color-primary-whithe);
+    font-size: var(--font-h1);
+    font-family: var(--font-title);
+    font-weight: bold;
+    text-align: start;
+    width: 549px;
+    height: 165px;
+}
+
+.main-h1-span{
+    color: var(--color-secundary-pink);
+}
+
+.paragrafo-main{
+    color: var(--color-secundary-grey);
+    font-family: var(--font-body);
+    font-size: var(--font-body2);
+    text-align: start;
+    width: 513px;
+}
+
+.content-main-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-main-explorar{
+    color: var(--color-primary-whithe);
+    background-color: var(--color-secundary-pink);
+    border-radius: 10px;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-body2);
+
+}
+
+.btn-main-pacotes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 24px;
+    border: 1px solid var(--color-secundary-d-gray);
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-body3);
+    color: var(--color-primary-whithe);
+
+}
+
+.section-results{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary-l-black);
+    padding: 48px 340px;
+}
+
+.section-results-container{
+    display: flex;
+    gap: 56px;
+    text-align: center;
+   
+}
+
+.section-results-title{
+    color: var( --color-secundary-pink);
+    font-size: var( --font-h2);
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.section-results-p{
+    color: var(--color-secundary-grey);
+    font-size: var(--font-body2);
+    font-family: var(--font-body);
+}
+
+.section-destiny{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 190px;
+    background-color: var(--color-primary-black);
+}
+
+.section-destiny-container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.section-destiny-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-destiny-content span{
+    color: var(--color-secundary-pink);
+    font-size: var(--font-body4);
+    font-family: var(--font-title);
+    border: 1px solid var(--color-secundary-d-gray);
+    border-radius: 24px;
+    padding: 12px 20px;
+}
+
+.section-destiny-content h2{
+    color: var(--color-primary-whithe);
+    font-family: var(--font-title);
+    font-weight: var(--font-h2);
+}
+
+.section-destiny-content p{
+    color: var(--color-secundary-grey);
+    font-family: var(--font-body);
+    font-weight: var(--font-body2);
+    text-align:center;
+    width: 572px;
+}
+
+.section-destiny-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-destiny-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-destiny-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-destiny-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--color-primary-l-black);
+    border-radius: 19px;
+    height: 488px;
+    width: 364px;
+    
+}
+
+.section-destiny-card-informations{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 15px;
+}
+
+.section-destiny-card-content h3{
+    color: var(--color-primary-whithe);
+    font-family: var(--font-body);
+    font-size: var(--font-h3);
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-experiences {
+    color: var(--color-secundary-grey);
+    font-family: var(--font-body);
+    font-size: var(--font-body3);
+
+}
+
+.destiny-card-reviews{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+
+.destiny-card-reviews-p{
+    color: var(--color-secundary-grey);
+    font-family: var(--font-title);
+    font-size: var(--font-body4);
+}
+
+.destiny-card-time {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.time-destiny{
+    color: var(--color-secundary-grey);
+    font-family: var(--font-title);
+    font-size: var(--font-body4);
+}
+
+.destiny-card-time-value{
+    color: var(--color-primary-whithe);
+    font-family: var(--font-title);
+    font-size: var(--font-h4);
+}
+
+.destiny-card-values{
+    display: flex;
+    justify-content: space-between;
+    gap: 105px;
+}
+
+.btn-destiny-card{
+ 
+    color: var(--color-primary-whithe);
+    background-color: var(--color-secundary-pink);
+    border-radius: 10px;
+    padding: 9px 118px;
+    text-decoration: none;
+    font-family: var(--font-title);
+    font-size: var(--font-body4);
+    white-space: nowrap;
+}
