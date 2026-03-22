@@ -23,7 +23,7 @@ O *CosmoTrip* é uma interface moderna de exploração espacial desenvolvida par
 ---
 
 ## 📸 Preview
-Em breve: Adicione aqui um print da sua tela principal!
+Em breve.
 
 ## 👤 Author
 Developed by *Beatriz Silva* [GitHub](https://github.com/Beatriz-Silva0803)
