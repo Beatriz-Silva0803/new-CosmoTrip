@@ -3,16 +3,20 @@
 .header-main{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 23px 185px;
+    justify-content: flex-start;
+    padding: 23px 172px;
     background-color: var(--color-primary-black);
+    box-sizing: border-box;
 }
 
 .header-principal{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 8%;
+    width: 100%;
     gap: 200px;
+    box-sizing: border-box;
 }
 
 .logo{
@@ -51,6 +55,7 @@
     font-family: var(--font-body);
     font-size: var(--font-body3);
     font-weight: bold;
+    white-space: nowrap;
 }
 
 main{
