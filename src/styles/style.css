@@ -411,3 +411,93 @@ h1{
     border:  1px solid var(--color-secundary-pink);
 }
 
+.section-evidences {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary-black);
+    gap: 60px;
+    padding: 40px 190px;
+    align-items: center;
+}
+
+.section-evidences-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-evidences-content span{
+    color: var(--color-secundary-pink);
+    border: 1px solid var(--color-secundary-d-gray);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-body);
+    font-size: var(--font-body4);
+    font-weight: 700;
+}
+
+.section-evidences-content h2{
+    color: var(--color-primary-whithe);
+    font-family: var(--font-title);
+    font-size: var(--font-h2);
+    font-weight: 400;
+
+}
+
+.section-evidences-content p {
+    color: var(--color-secundary-grey);
+    font-family: var(--font-body);
+    font-size: var(--font-body2);
+    width: 594px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-evidences-cards{
+    display:grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.section-evidences-cards-principal{
+    background-color: var(--color-primary-l-black);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 364px;
+    height: 224px;
+    align-items:flex-start;
+    
+}
+
+.user-review{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.user-review h3{
+    color: var(--color-primary-whithe);
+    font-family: var(--font-title);
+    font-size: var(--font-h4);
+    font-weight: 600;
+}
+
+.section-evidences-cards-principal p {
+    color: var(--color-secundary-grey);
+    font-family: var(--font-body);
+    font-size: var(--font-body4);
+    font-weight: 400;
+}
+
+.section-evidences-cards-principal:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    border:  1px solid var(--color-secundary-pink);
+}
+
