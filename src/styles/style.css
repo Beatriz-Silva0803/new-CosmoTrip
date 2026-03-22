@@ -39,6 +39,7 @@
     list-style: none;
     font-family: var(--font-body);
     font-weight: var(--font-body3);
+    
 }
 
 .active{
@@ -232,6 +233,13 @@ h1{
     gap: 20px;
 }
 
+.section-destiny-card-content:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    border: 2px solid var(--color-secundary-pink);
+    border-radius: 20px;
+}
+
 .section-destiny-card-container{
     display: flex;
     justify-content: center;
@@ -320,3 +328,86 @@ h1{
     font-size: var(--font-body4);
     white-space: nowrap;
 }
+
+.section-highlights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 42px 192px;
+    background-color: var(--color-primary-l-black);
+}
+
+.section-highlights-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-highlights-principal span{
+    color: var(--color-secundary-pink);
+    font-family: var(--font-body);
+    font-size: var(--font-body4);
+    border: 1px solid var(--color-secundary-d-gray);
+    border-radius: 24px;
+    padding: 12px 20px;
+    width: 116px;
+}
+
+.section-highlights-principal h2{
+    color: var(--color-primary-whithe);
+    font-family: var(--font-title);
+    font-size: var(--font-h2);
+    font-weight: 500;
+}
+
+.section-highlights-principal p{
+    color: var(--color-secundary-grey);
+    font-family: var(--font-body);
+    font-size: var(--font-body2);
+    width: 572px;
+    text-align: center;
+}
+
+.section-highlights-cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-highlights-cards{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary-black);
+    border-radius: 20px;
+    padding: 90px 35px;
+    align-items: center;
+    gap: 20px;
+    width: 363px;
+    height: 356px;
+}
+
+.section-highlights-cards h4{
+    color: var(--color-primary-whithe);
+    font-family: var(--font-title);
+    font-size: var(--font-h4);
+    font-weight: 700;
+}
+
+.section-highlights-cards p{
+    color: var(--color-secundary-grey);
+    font-family: var(--font-body);
+    font-size: var(--font-body3);
+    text-align:center;
+    width: 292px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.section-highlights-cards:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    border:  1px solid var(--color-secundary-pink);
+}
+
